@@ -1,20 +1,57 @@
 <!DOCTYPE html>
 <!-- Esta es mi primera pagina html-->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es"
+      xmlns="http://www.w3.org/1999/xhtml">
     <head>
+
         <title>TechShop</title>
         <meta charset="UTF-8"/>
+        <meta name="description" content="Pagina index del sitio web TechShop"/>
+        <meta name="keywords" content="html5, css3, semantica"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body> 
-        <h1>Pagina Inicial</h1>
+        <header>
+            <h1 id="estilo1">Introduccion a HTML5</h1>
+        </header>
+
+        <nav>
+
+            <a href="ejemplo7.html">Back</a>|
+            <a href="index.html">Home</a>|
+            <a href="ejemplo2.html">Next</a><br/>
+        </nav>
+        <aside>
+            <h2>Producto del mes</h2>
+            <p id="prueba">Este es un primer parrafo de una pagina web</p>
+        </aside>
+        <section style="color: blueviolet">
         <hr/>
-        <p>Este es un primer parrafo de una pagina web</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisi hac cursus vehicula donec pellentesque sem, ligula eu porta nullam in quisque. Nulla eget nibh rhoncus quis netus proin leo odio potenti, interdum fusce curae eros senectus sagittis etiam auctor, dis id vestibulum cras porta viverra taciti nullam. Duis nullam vitae leo vestibulum justo himenaeos nascetur, quis curae pellentesque phasellus turpis id, ligula sollicitudin fringilla facilisi et molestie. Aptent habitant nec egestas nascetur natoque tristique id nisi, accumsan torquent etiam tortor pretium sem faucibus nostra quam, nam aliquet montes sociis donec purus venenatis.</p>
-
-        <p style="text-align: right">Ad etiam inceptos scelerisque cursus cubilia primis dapibus justo ridiculus, eros ut est mus lobortis vitae praesent taciti sagittis, commodo libero vel metus sed ullamcorper nec vivamus. Pharetra arcu fringilla felis mi urna vestibulum litora suscipit torquent, pellentesque ligula eros imperdiet blandit mus feugiat nibh sociis, parturient risus nostra diam curabitur elementum dapibus ridiculus. Nulla sapien ad tempus in eros platea scelerisque montes, laoreet at mollis quisque porttitor integer. Lobortis montes quis turpis congue nisi fringilla gravida ridiculus class, vulputate rutrum semper venenatis cubilia nisl vestibulum massa, metus facilisis interdum penatibus blandit nascetur per magnis.</p>
-
-        <p style="text-align: center">Tempor curabitur urna iaculis hendrerit litora non varius senectus, velit aliquam aliquet vivamus ante placerat auctor tempus, class sodales nam dictumst libero morbi cursus. Suscipit urna sodales auctor pretium neque in dis felis, mauris nullam ridiculus nunc accumsan magna. Faucibus cum quisque aptent etiam nisl vehicula, dictumst taciti ligula quam. Sociosqu metus cum per tristique duis donec egestas praesent volutpat est dapibus integer, ullamcorper varius rhoncus gravida aenean euismod etiam vel potenti turpis condimentum dictum, ornare fames velit interdum massa malesuada dui parturient lobortis eget scelerisque.</p>
+        <section>
+            <article>
+                <header>Producto del mes </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisi hac cursus vehicula donec pellentesque sem, ligula eu porta nullam in quisque. Nulla eget nibh rhoncus quis netus proin leo odio potenti, interdum fusce curae eros senectus sagittis etiam auctor, dis id vestibulum cras porta viverra taciti nullam. Duis nullam vitae leo vestibulum justo himenaeos nascetur, quis curae pellentesque phasellus turpis id, ligula sollicitudin fringilla facilisi et molestie. Aptent habitant nec egestas nascetur natoque tristique id nisi, accumsan torquent etiam tortor pretium sem faucibus nostra quam, nam aliquet montes sociis donec purus venenatis.</p>
+                <figure>
+                    <img src="img/depositphotos_3201839-stock-photo-three-tomatoes.jpg" alt="Unos Tomates" width="300"/>
+                    <figcaption>Tomates Rojos</figcaption>
+                </figure>
+                <footer>455 Visitas</footer>
+            </article>
+            <article>
+                <header>Oferta del dia</header>
+                 <p style="text-align: right">Ad etiam inceptos scelerisque cursus cubilia primis dapibus justo ridiculus, eros ut est mus lobortis vitae praesent taciti sagittis, commodo libero vel metus sed ullamcorper nec vivamus. Pharetra arcu fringilla felis mi urna vestibulum litora suscipit torquent, pellentesque ligula eros imperdiet blandit mus feugiat nibh sociis, parturient risus nostra diam curabitur elementum dapibus ridiculus. Nulla sapien ad tempus in eros platea scelerisque montes, laoreet at mollis quisque porttitor integer. Lobortis montes quis turpis congue nisi fringilla gravida ridiculus class, vulputate rutrum semper venenatis cubilia nisl vestibulum massa, metus facilisis interdum penatibus blandit nascetur per magnis.</p>
+                  <footer calss="prueba">Add</footer>
+            </article>
+            <article>
+                <header>Alienware</header>
+                <p style="text-align: center">Tempor curabitur urna iaculis hendrerit litora non varius senectus, velit aliquam aliquet vivamus ante placerat auctor tempus, class sodales nam dictumst libero morbi cursus. Suscipit urna sodales auctor pretium neque in dis felis, mauris nullam ridiculus nunc accumsan magna. Faucibus cum quisque aptent etiam nisl vehicula, dictumst taciti ligula quam. Sociosqu metus cum per tristique duis donec egestas praesent volutpat est dapibus integer, ullamcorper varius rhoncus gravida aenean euismod etiam vel potenti turpis condimentum dictum, ornare fames velit interdum massa malesuada dui parturient lobortis eget scelerisque Inspirada en al pelicula de culto <cite>Aliens del septiomo pasajero</cite> desarollada en  los 80's.</p>
+                 
+            </article>
+            </section>
+        </section>
+        <footer>
+            Derechos Reservados 2022 <address>Tel: 506 8899-5544</address>
+        </footer>
 
     </body>
 </html>
