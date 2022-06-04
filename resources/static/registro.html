@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Esta es mi primera pagina html-->
+<html lang="es"
+      xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <title>TechShop</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Pagina index del sitio web TechShop"/>
+        <meta name="keywords" content="html5, css3, semantica"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body> 
+        <header>
+            <h1 id="estilo1">Ejemplo de Registros</h1>
+        </header>
+
+        <nav>
+
+            <a href="index.html">Back</a>|
+            <a href="index.html">Home</a>|
+            <a href="videos.html">Next</a><br/>
+        </nav>
+        <aside>
+            <h2>Producto del mes</h2>
+            <p id="prueba">Este es un primer parrafo de una pagina web</p>
+        </aside>
+        <section>
+            <h2>Ingreso de Datos</h2>
+            <article>
+                <form action="confirmacion.jsp">
+                    <input type="button" name="boton" value="prueba"/>
+                    <br/>
+                    Está deacuerdo<input type="checkbox" name="deacuerdo"/>
+                    <br/>
+                    Seleccione un color de fondo:<input type="color" name="color"/>
+                    <br/>
+                    Cuando Nacio?<input type="date" name="fechaNaci"/>
+                    <br/>
+                    Momento exacto de Nacimiento?<input type="datetime-local" name="hora"/>
+                    <br/>
+                    Su cuenta de correo es: <input type="email" name="correo" placeholder="correo@gmail.com" />
+                    <br/>
+                    Suba una fotografía: <input type="file" name="rutaFoto"/>
+                    <br/>
+                    Esto no se va a ver...<input type="hidden" name="idCliente" value="204560789"/>
+                    <br/>
+                    Cuantas unidades?: <input type="number" value="1" name="cantidad"/>
+                    <br/>
+                    Su contraseña es:<input type="password" name="clave"/>
+                    <br/>
+                    Tipo de enrega: Normal<input type="radio" name="tipo" value="normal"/> 1 dia <input type="radio" name="tipo" value="1dia"/>
+                    <br/>
+                    Limpiar el formulario <input type="reset" value="borrar"/>
+                    <br/>
+                    Buscar producto  <input type="search" name="codigo" placeholder="XRB-123"/>
+                    <br/>
+                    Telefono de contacto:<input type="tel" name="telefono" placeholder="8899-4455"/>
+                    <br/>
+                    
+                    <br/>
+                    <input type="submit" name="hacer" value="enviar"/>
+                    <br/>
+                </form>
+            </article>
+        </section>
+        <footer>
+            Derechos Reservados 2022 <address>Tel: 506 8899-5544</address>
+        </footer>
+
+    </body>
+</html>
